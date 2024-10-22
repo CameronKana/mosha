@@ -1,0 +1,119 @@
+@charset "UTF-8";
+header, nav, h2, .main-visual, footer {
+    /* font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif; */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+  }  
+
+
+/* Header */
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+
+nav .nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav .nav-list a:hover {
+}
+
+
+
+
+body {
+    font-size: 15px;
+}
+
+
+
+
+main {
+    text-align: center;
+}
+
+#about {
+    display: block;
+    font-size: 40px;
+}
+
+#about {
+    text-align: center;
+    font-family: serif;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 0px;
+
+
+}
+
+
+.container {
+    margin: 10px 10px 100px;
+    padding: 10px;
+
+}
+
+
+
+
+#cooking {
+    font-size: 40px;
+    font-family: serif;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.cooking {
+    margin: 100px 0px opx 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.cooking1 {
+    margin: 10px 10px 100px;
+    padding: 10px;
+    object-fit: cover;
+
+}
+
+footer {    
+    text-align: center;    
+}
+
+img {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 960px) 
+    img {
+      max-width: 960px;
+    }
